@@ -10,5 +10,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: executes the command
-      - run: echo "$(cat hello_world.txt)"
+        run: echo "$(cat hello_world.txt)"
 
